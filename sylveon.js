@@ -15,10 +15,13 @@ let sylveon = new Pokemon (
     console.log(sylveon);
 
 
-    document.getElementById("sylveon").innerHTML += `<p>${"Name"}</span><span class="value"><strong>${ sylveon.name }</strong></p></div>`
-    document.getElementById("sylveon").innerHTML += `<p>${"Abilities" }<span class="value"><strong>${ sylveon.abilities }</strong></p>`     
-    document.getElementById("sylveon").innerHTML += `<p>${"Attack" }<span class="value"><strong>${ sylveon.attack }</strong></p>`
-    document.getElementById("sylveon").innerHTML += `<p>${"Defense" }<span class="value"><strong>${ sylveon.defense}</strong></p>`
-    document.getElementById("sylveon").innerHTML += `<p>${"HP" }<span class="value"><strong>${ sylveon.hp }</strong></p>`
+    document.getElementById("sylveon").innerHTML += `<p>${"Name"}</span><span class="value"><br><strong><em>${ sylveon.name }</strong></p></em></div>`
+    document.getElementById("sylveon").innerHTML += `<p>${"Abilities" }<span class="value"><br><strong><em>${ sylveon.abilities }</strong></em></p>`     
+    document.getElementById("sylveon").innerHTML += `<p>${"Attack" }<span class="value"><br><strong><em>${ sylveon.attack }</strong></em></p>`
+    document.getElementById("sylveon").innerHTML += `<p>${"Defense" }<span class="value"><br><strong><em>${ sylveon.defense}</strong></em></p>`
+    document.getElementById("sylveon").innerHTML += `<p>${"HP" }<span class="value"><br><strong><em>${ sylveon.hp }</strong></em></p>`
     
+    document.getElementById("sylveon").style.fontFamily = "VT323";
+    document.getElementById("sylveon").style.fontSize = "24px";
 });
+
