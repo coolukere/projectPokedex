@@ -15,10 +15,12 @@ let eevee = new Pokemon (
     console.log(eevee);
 
 
-    document.getElementById("eevee").innerHTML += `<p>${"Name"}</span><span class="value"><strong>${ eevee.name }</strong></p></div>`
-    document.getElementById("eevee").innerHTML += `<p>${"Abilities" }<span class="value"><strong>${ eevee.abilities }</strong></p>`     
-    document.getElementById("eevee").innerHTML += `<p>${"Attack" }<span class="value"><strong>${ eevee.attack }</strong></p>`
-    document.getElementById("eevee").innerHTML += `<p>${"Defense" }<span class="value"><strong>${ eevee.defense}</strong></p>`
-    document.getElementById("eevee").innerHTML += `<p>${"HP" }<span class="value"><strong>${ eevee.hp }</strong></p>`
+    document.getElementById("eevee").innerHTML += `<p>${"Name"}</span><span class="value"><br><em>${ eevee.name }</strong></p></div>`
+    document.getElementById("eevee").innerHTML += `<p>${"Abilities" }<span class="value"><br><em>${ eevee.abilities }</strong></p>`     
+    document.getElementById("eevee").innerHTML += `<p>${"Attack" }<span class="value"><br><em>${ eevee.attack }</strong></p>`
+    document.getElementById("eevee").innerHTML += `<p>${"Defense" }<span class="value"><br><em>${ eevee.defense}</strong></p>`
+    document.getElementById("eevee").innerHTML += `<p>${"HP" }<span class="value"><br><em>${ eevee.hp }</strong></p>`
     
+    document.getElementById("eevee").style.fontFamily = "VT323";
+    document.getElementById("eevee").style.fontSize = "24px";
 });
