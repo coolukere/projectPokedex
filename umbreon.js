@@ -15,10 +15,12 @@ let umbreon = new Pokemon (
     console.log(umbreon);
 
 
-    document.getElementById("umbreon").innerHTML += `<p>${"Name"}</span><span class="value"><strong>${ umbreon.name }</strong></p></div>`
-    document.getElementById("umbreon").innerHTML += `<p>${"Abilities" }<span class="value"><strong>${ umbreon.abilities }</strong></p>`     
-    document.getElementById("umbreon").innerHTML += `<p>${"Attack" }<span class="value"><strong>${ umbreon.attack }</strong></p>`
-    document.getElementById("umbreon").innerHTML += `<p>${"Defense" }<span class="value"><strong>${ umbreon.defense}</strong></p>`
-    document.getElementById("umbreon").innerHTML += `<p>${"HP" }<span class="value"><strong>${ umbreon.hp }</strong></p>`
+    document.getElementById("umbreon").innerHTML += `<p>${"Name"}</span><span class="value"><br><strong><em>${ umbreon.name }</strong></p></em></div>`
+    document.getElementById("umbreon").innerHTML += `<p>${"Abilities" }<span class="value"><br><strong><em>${ umbreon.abilities }</strong></em></p>`     
+    document.getElementById("umbreon").innerHTML += `<p>${"Attack" }<span class="value"><br><strong><em>${ umbreon.attack }</strong></em></p>`
+    document.getElementById("umbreon").innerHTML += `<p>${"Defense" }<span class="value"><br><strong><em>${ umbreon.defense}</strong></em></p>`
+    document.getElementById("umbreon").innerHTML += `<p>${"HP" }<span class="value"><br><strong><em>${ umbreon.hp }</strong></em></p>`
     
+    document.getElementById("umbreon").style.fontFamily = "VT323";
+    document.getElementById("umbreon").style.fontSize = "24px";
 });
