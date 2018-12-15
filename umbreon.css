@@ -3,62 +3,13 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-  }
-  body a:hover {  
-  cursor: url("http://www.rw-designer.com/cursor-extern.php?id=61446");
-  }
-  
-  nav {
-  width:1500px;
-  height:50px;
-  position:fixed;
-  top:0;
-  left:0;
-  z-index:99999;
-  background-color: #fff;
-  display:flex;
-  justify-content:space-evenly;
-  }
-  
-  nav a {
-  font-family: 'VT323', monospace;
-  color: #4D3B3A;
-  font-size: 20px;
-  text-transform: lowercase;
-  text-decoration: none;
-  padding:0;
-  display: flex;
-  justify-content: space-evenly;
-  }
-  
-  nav a:hover {
-  background-color:#fff;
-  color:#975D4B;
-  cursor: pointer;
-  display: flex;
-  justify-content: space-evenly;
-  }
-  
-  nav a:visited {
-  background-color:#22A67A;
-  color: #334252;
-  display: flex;
-  justify-content: space-evenly;
-  }
-  
-  nav a:active {
-  background-color:#22A67A;
-  color:white;
-  display: flex;
-  justify-content: space-evenly;
-  }
-  
-  .container {
+}
+.container {
     display: grid;
     float:left;
-  }
+}
   
-  .card{
+.card {
     max-width:1076px;
     max-height:360px;
     margin: 1rem;
@@ -67,18 +18,17 @@ body {
     border-radius: 12px;
     overflow: hidden;
     transition: all .2s linear;
-  }
-  
-  .card:hover {
+}
+.card:hover {
     box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
     transform: translate3D(0, -2px, 0);
-  }
+}
   
-  .hero {
+.hero {
     max-height:240px;
-  }
+}
 
-  .back {
+.back {
     width:200px;
     height:50px;
     color: #C4AB8D;
@@ -90,6 +40,7 @@ body {
     background-image:url("https://i.imgur.com/6jZu83K.png");
     border-radius: 12px;
   }
+
 .back:hover {
   box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
   transform: translate3D(0, -2px, 0);
