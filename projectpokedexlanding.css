@@ -32,7 +32,7 @@ h1 {
     position: relative;
     width: 60%;
     margin: 0 auto;
-    padding: 0; /* Clears unordered list default of 40px */
+    padding: 0;
   }
   
   .clear:after {
