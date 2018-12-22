@@ -6,11 +6,20 @@ axios.get("https://pokeapi.co/api/v2/pokemon/700/")
     const data = response.data;
     console.log(data);
 
+
+    let array = [];
+    for(let i=0; i < data.abilities.length; i++){
+        
+        array.push(data.abilities[i].ability.name);
+    }
+            
+
 let sylveon = new Pokemon (
     data.forms[0].name,
+    array,
     data.stats[4].base_stat,
     data.stats[3].base_stat,
-    data.abilities[0].ability.name
+    data.stats[5].base_stat
 )
     console.log(sylveon);
 
@@ -24,4 +33,3 @@ let sylveon = new Pokemon (
     document.getElementById("sylveon").style.fontFamily = "VT323";
     document.getElementById("sylveon").style.fontSize = "24px";
 });
-
